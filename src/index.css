@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.my-book-card{
+  width: 82px;
+  padding: 13px;
+  float: left;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 7.5px;
+  border-radius: 7px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  max-height: 180px;
+  min-height: 180px;
+}
+
+.my-book-card .book-title{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.my-book-card .book{
+  height: 130px;
+  width: 85.33px;
+  min-height: 130px;
+  max-height: 130px;
+}
+
+.my-book-list{
+  width: 100%;
+  height: 202px;
+}
+
+.my-book-list-title{
+  text-align: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 10px;
+}
+
+.search-label{
+  padding: 15px 5px 5px 5px;
+}
+
+.search-input{
+  padding: 0 15px 15px 10px;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.search-input input{
+  height: 30px;
+  width: 100%;
+  float: left;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.my-img-container{
+  max-height: 134px;
+}
